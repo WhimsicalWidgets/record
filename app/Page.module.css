@@ -8,22 +8,26 @@
   align-items: center;
 }
 
-.entry {
+.recordSection {
   display: flex;
-  flex-direction: column;
-}
-
-.title {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.inline {
-  flex-direction: row;
   align-items: center;
-  gap: 10px;
+  justify-content: space-around;
 }
 
-.content {
-  font-size: 20px;
+.recordButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input {
+  border-radius: 8%;
+  border: 5px purple;
+  border-style: ridge;
+  text-align: center;
+  max-width: 60px;
+}
+
+.pie {
+  width: 200px;
 }

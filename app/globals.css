@@ -5,14 +5,14 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-end-rgb: 214, 219, 220;
-  --background-start-rgb: 255, 255, 255;
+  --background-start: purple;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 255, 0, 255;
+    --background-end-rgb: 0, 255, 255;
   }
 }
 
@@ -32,10 +32,24 @@ body {
   }
 }
 
-.success-true {
-  color: green;
+button {
+  position: relative;
+  padding: 5px 15px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+  background-color: #7800bf;
+  color: white;
 }
 
-.success-false {
-  color: red;
+button:disabled {
+  background-color: #6a3986;
+  color: gray;
+}
+
+input {
+  font-size: 1rem;
+  color: darkslategrey;
+  padding: 0px 5px;
 }
