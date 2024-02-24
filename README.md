@@ -1,6 +1,6 @@
-# Reflect - Display Query Parameters with Next.js
+# Record - Record your own audio using web technology and download it.
 
-I made this to be a generic placeholder langing page I can direct users to from anywhere with a decently formatted message.
+I made this to be a generic audio recorder to practice with the APIs.
 
 ## Please
 
@@ -13,4 +13,4 @@ Send PRs with fun styling options.
 
 ## Example
 
-A live example of Reflect is hosted at [reflect.whimsicalwidgets.win](https://reflect.whimsicalwidgets.win/?success=true&Thank%20you=for%20checking%20out%20my%20reflection.).
+A live example of Record is hosted at [record.whimsicalwidgets.win](https://record.whimsicalwidgets.win/).

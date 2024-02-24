@@ -4,6 +4,7 @@ import { PieChart } from 'react-minimal-pie-chart'
 
 import AudioPlayer from './AudioPlayer'
 import styles from './Page.module.css'
+import GitHubFooter from './GitHubFooter'
 function downloadFile(fileUrl: string, fileName: string) {
   const anchor = document.createElement('a')
   anchor.href = fileUrl
@@ -126,15 +127,12 @@ function Home() {
       </div>
       <AudioPlayer audioUrl={getAudioUrl()} />
       <div>
-        {/* <button disabled={!haveRecording} onClick={playRecording}>
-          {' '}
-          ▶️ Play
-        </button> */}
         <button disabled={!haveRecording} onClick={downloadRecording}>
           {' '}
           ⤵️ Download
         </button>
       </div>
+      <GitHubFooter repoUrl='https://github.com/WhimsicalWidgets/record' />
     </div>
   )
 }
